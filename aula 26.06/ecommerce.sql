@@ -26,3 +26,5 @@ CREATE TABLE tb_ecommerce(
     
     SELECT nome FROM tb_ecommerce WHERE valor <= 500.00;
     
+    UPDATE tb_ecommerce SET valor = 750 WHERE id = 2;
+    

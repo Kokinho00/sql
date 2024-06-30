@@ -23,4 +23,8 @@ CREATE TABLE tb_colaboradores(
     
     SELECT nome FROM tb_colaboradores WHERE salario <= 2000.00;
     
+    UPDATE tb_colaboradores SET salario = 2300 WHERE id = 3;
+    
+    
+    
     
